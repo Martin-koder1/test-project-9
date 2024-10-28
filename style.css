@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.Links {
+    display: flex;
+    list-style: none;
+    gap: 1.25em;
+    justify-content: end;
+    align-items: end;
+    padding: 20px;
+    border-bottom: solid 5px black;
+}
+
+section {
+    height: 100vh;
+}
+
+.FirstSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SecondSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ThirdSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nb">
   <head>
     <title>Home</title>
     <meta charset="UTF-8" />
@@ -8,8 +8,54 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
-    <header></header>
+    <header>
+      <!--Navigation text functions as navigation links to help navigate the page using the "Bookmarks"-technique-->
+      <h1></h1>
+      <ul class="Links">
+        <a href="#section1">
+          <li>Section 1</li>
+        </a>
+        <a href="#section2">
+          <li>Section 2</li>
+        </a>
+        <a href="#section3">
+          <li>Section 3</li>
+        </a>
+      </ul>
+    </header>
+
     <main>
+      <!--First section is displayed text to the left and image to the right-->
+      <section id="section1" class="FirstSection">
+        <div>
+          <h1>Overskrift</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit placeat voluptatibus.</p>
+        </div>
+        <img src="" alt="Placeholder bilde">
+      </section>
+
+      <!--Second section is displayed image to the left and text to the right-->
+      <section id="section2" class="SecondSection">
+        <img src="" alt="Placeholder bilde">
+        <div>
+          <h2>Overskrift</h2>
+          <ul>
+            <li>Nummer 1</li>
+            <li>Nummer 2</li>
+            <li>Nummer 3</li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Thrid section is displayed text to the left and image to the right-->
+      <section id="section3" class="ThirdSection">
+        <div>
+          <h2>Overskrift</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere similique reprehenderit ratione.</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore placeat praesentium, saepe magni facilis.</p>
+        </div>
+        <img src="" alt="Placeholder bilde">
+      </section>
     </main>
     <footer>
     </footer>
