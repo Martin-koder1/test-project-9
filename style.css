@@ -1,5 +1,13 @@
 body {
     margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    border-bottom: solid 5px black;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 
 .Links {
@@ -9,7 +17,6 @@ body {
     justify-content: end;
     align-items: end;
     padding: 20px;
-    border-bottom: solid 5px black;
 }
 
 section {
@@ -32,4 +39,12 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.SectionText {
+    width: 50%;
+}
+
+.SectionImage {
+    width: 50%;
 }
